@@ -1,0 +1,97 @@
+#Groundplant{
+	animation: groundplant .6s;
+}
+
+@keyframes groundplant{
+	0%{
+		transform: translateY(-500px);		
+	}
+
+	100%{
+		transform: translateY(-0px);		
+	}
+}
+#SidePlant{
+	transform: translateY(-500px);		
+	animation: SidePlant .6s forwards;
+	animation-delay: .3s ;
+
+}
+
+@keyframes SidePlant{
+	0%{
+		transform: translateY(-500px);		
+	}
+
+	100%{
+		transform: translateY(-0px);		
+	}
+}
+
+#Tea{
+	opacity: 0;
+	animation: Tea .6s forwards;
+	animation-delay: .8s;
+
+}
+
+@keyframes Tea{
+	0%{
+		transform: translate(500px, 500px);		
+	}
+
+	100%{
+		opacity:1;
+		transform: translateX(0px, 0px);		
+	}
+}
+
+#Cactus{
+	opacity: 0;
+	animation: Cactus .6s forwards;
+	animation-delay: .6s;
+
+}
+
+@keyframes Cactus{
+	0%{
+		transform: translate(-500px, 500px);		
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateX(0px, 0px);		
+	}
+}
+
+#carpet{
+	opacity: 0;
+	animation: carpet .6s forwards;
+
+}
+
+@keyframes carpet{
+	0%{
+		transform: translate(500px, 500px);		
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateX(0px, 0px);		
+	}
+}
+#LCD{
+	transform: translateX(500px);		
+	animation: LCD .6s forwards;
+	animation-delay: .9s;
+}
+
+@keyframes LCD{
+	0%{
+		transform: translateX(500px);		
+	}
+
+	100%{
+		transform: translateX(0px);		
+	}
+}
